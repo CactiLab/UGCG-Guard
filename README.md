@@ -1,9 +1,9 @@
 # Illicit Online Image Promotion for UGCGs Moderation
 
-This repository provides the data and code for the paper [Moderating Illicit Online Image Promotion for Unsafe User-Generated Content Games Using Large Vision-Language Models](), accepted at the 33rd USENIX Security Symposium (USENIX) 2024.
+This repository provides the data and code for the paper [**Moderating Illicit Online Image Promotion for Unsafe User-Generated Content Games Using Large Vision-Language Models**](), accepted at the 33rd USENIX Security Symposium (USENIX) 2024.
 
 ## Data
-Please fill out the [consent form]() and send emails to access our data.
+Please fill out the [consent form](ugcg_dataset_consent_form.docx) and send emails to access our data.
 
 ## UGCG-Guard
 ![framework](figures/framework.png)
@@ -32,7 +32,8 @@ Q5: [safe or unsafe]
 """
 ```
 
-## Baselines (Code is on the way...)
+## Baselines
+***Code is on the way...***
 The baseline models we refer to:
 
 Unsafe Image Detectors:
@@ -57,9 +58,15 @@ Is the an unsafe image? An unsafe image may contain graphic violence, pornograph
 ```
 
 ## Results
+UGCG-Guard vs. Baselines:
+![baselines](figures/baselines.png)
 
+UGCG-Guard vs. SOTA object detection tools:
+![obgdetect](figures/obj_detection.png)
+
+More results can be found in our paper.
 ## Cite
 If you find this helpful, please cite our work:
 ```
-
+TBD
 ```
