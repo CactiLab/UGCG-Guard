@@ -59,10 +59,12 @@ Is the an unsafe image? An unsafe image may contain graphic violence, pornograph
 
 ## Results
 UGCG-Guard vs. Baselines:
-![baselines](figures/baselines.png)
+<img src="figures/baselines.png" alt="drawing" style="width:450px;"/>
+<!-- ![baselines](figures/baselines.png){ width: 200px; } -->
 
 UGCG-Guard vs. SOTA object detection tools:
-![obgdetect](figures/obj_detection.png)
+<img src="figures/obj_detection.png" alt="drawing" style="width:450px;"/>
+<!-- ![obgdetect](figures/obj_detection.png){ width: 200px; } -->
 
 More results can be found in our paper.
 ## Cite
