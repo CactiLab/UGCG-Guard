@@ -11,6 +11,7 @@ Please fill out the [consent form](ugcg_dataset_consent_form.docx) and send emai
 Our framework can be integrated with current popular large vision-language models, such as [InstructBLIP](https://huggingface.co/docs/transformers/en/model_doc/instructblip), [mPLUG](https://github.com/X-PLUG/mPLUG), [GPT-4V](https://openai.com/research/gpt-4v-system-card), [Gemini](https://gemini.google.com), etc. Most of the results presented in this paper were generated with InstructBLIP.
 
 ### UGCG-CoT
+<img src="figures/ugcg-cot.png" alt="drawing" style="width:450px;"/>
 The prompt of our UGCG-CoT, replace `{input_image}` with your testing sample. Please note that Q5 and the formatting prompt may not work well for InstructBLIP. You can remove the prompts and manually get the final decision.
 
 ```
@@ -33,7 +34,10 @@ Q5: [safe or unsafe]
 ```
 
 ## Baselines
+![example](figures/example.png)
+
 ***Code is on the way...***
+
 The baseline models we refer to:
 
 Unsafe Image Detectors:
