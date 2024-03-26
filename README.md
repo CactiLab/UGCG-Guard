@@ -12,7 +12,7 @@ Our framework can be integrated with current popular large vision-language model
 
 ### UGCG-CoT
 <p align="center">
-  <img src="figures/ugcg-cot.png" alt="drawing" style="width:600px;"/>
+  <img src="figures/ugcg-cot.png" alt="drawing" style="width:500px;"/>
 </p>
 The prompt of our UGCG-CoT, replace `{input_image}` with your testing sample. Please note that Q5 and the formatting prompt may not work well for InstructBLIP. You can remove the prompts and manually get the final decision.
 
