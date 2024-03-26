@@ -53,7 +53,8 @@ Large VLM with the general prompt:
 ```
 general_prompt = """
 {input_image}
-Is the an unsafe image? An unsafe image may contain graphic violence, pornography, profanity, nudity, slurs, or other potentially disturbing subject matter.
+Is this image an unsafe image? 
+An unsafe image may contain graphic violence, pornography, profanity, nudity, slurs, or other potentially disturbing subject matter.
 """
 ```
 
