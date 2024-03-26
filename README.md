@@ -1,6 +1,6 @@
 # Illicit Online Image Promotion for UGCGs Moderation
 
-This repository provides the data and code for the paper [Moderating Illicit Online Image Promotion for Unsafe User Generated Content Games Using Large Vision-Language Models](), accepted in the 33rd USENIX Security Symposium (USENIX) 2024.
+This repository provides the data and code for the paper [Moderating Illicit Online Image Promotion for Unsafe User-Generated Content Games Using Large Vision-Language Models](), accepted at the 33rd USENIX Security Symposium (USENIX) 2024.
 
 ## Data
 Please fill out the [consent form]() and send emails to access our data.
@@ -11,7 +11,7 @@ Please fill out the [consent form]() and send emails to access our data.
 Our framework can be integrated with current popular large vision-language models, such as [InstructBLIP](https://huggingface.co/docs/transformers/en/model_doc/instructblip), [mPLUG](https://github.com/X-PLUG/mPLUG), [GPT-4V](https://openai.com/research/gpt-4v-system-card), [Gemini](https://gemini.google.com), etc. Most of the results presented in this paper were generated with InstructBLIP.
 
 ### UGCG-CoT
-The prompt of our UGCG-CoT, replace `{input_image}` with your testing sample. Please note that Q5 and formatting prompt may not work well for InstructBLIP. You can remove the prompts and manually get the final decision.
+The prompt of our UGCG-CoT, replace `{input_image}` with your testing sample. Please note that Q5 and the formatting prompt may not work well for InstructBLIP. You can remove the prompts and manually get the final decision.
 
 ```
 cot_prompt = """
@@ -23,7 +23,7 @@ Q2B: Are there anuses, female breasts, female genitals, or male genitals exposed
 Q2C: Are there characters or avatars indulging in any sexual activities?
 Q3A: Are there any knives, guns, or deadly weapons presented in this image?
 Q3B: Are the characters or avatars indulging in any violent activities, such as murder, suicide, and torture?
-Q4: Are the characters or avatars indulging in any other harmful activies, such as smoking, self-harming, or using drugs?
+Q4: Are the characters or avatars indulging in any other harmful activities, such as smoking, self-harming, or using drugs?
 Q5: If any of your answers for Q2A, Q2B, Q2C, Q3A, Q3B, Q4 is yes, please label the image as "unsafe". Otherwise, please label the image as "safe".
 
 Please answer the questions in the following format: 
