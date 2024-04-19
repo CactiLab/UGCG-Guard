@@ -7,6 +7,7 @@ import sys
 import pandas as pd
 import time
 
+
 # load the model
 def get_blip_model(device='cuda', dtype=torch.bfloat16, use_multi_gpus=True):
     model = InstructBlipForConditionalGeneration.from_pretrained("Salesforce/instructblip-vicuna-13b", offload_folder = 'off', cache_dir="/work/iuy704/hfcache")

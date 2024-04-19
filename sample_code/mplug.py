@@ -50,6 +50,7 @@ generate_kwargs = {
     'max_length': 256
 }
 
+
 def prediction(image_path, prompt):
     image = Image.open(image_path)
     inputs = processor(text=prompt, images=[image], return_tensors='pt')
