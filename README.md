@@ -3,7 +3,8 @@
 This repository provides the data and code for the paper [**Moderating Illicit Online Image Promotion for Unsafe User-Generated Content Games Using Large Vision-Language Models**](), accepted at the 33rd USENIX Security Symposium (USENIX) 2024.
 
 ## Data
-Please fill out the [consent form](ugcg_dataset_consent_form.docx) and send emails to access our data.
+<!-- Please fill out the [consent form](ugcg_dataset_consent_form.docx) and send emails to access our data. -->
+***The data is under preparing...***
 
 ## UGCG-Guard
 ![framework](figures/framework.png)
@@ -38,7 +39,7 @@ Q5: [safe or unsafe]
 ## Baselines
 ![example](figures/example.png)
 
-***Code is on the way...***
+***More code is on the way...***
 
 The baseline models we refer to:
 
@@ -79,5 +80,12 @@ More results can be found in our paper.
 ## Cite
 If you find this helpful, please cite our work:
 ```
-TBD
+@article{Guo2024ModeratingIO,
+  title={Moderating Illicit Online Image Promotion for Unsafe User-Generated Content Games Using Large Vision-Language Models},
+  author={Keyan Guo and Ayush Utkarsh and Wenbo Ding and Isabelle Ondracek and Ziming Zhao and Guo Freeman and Nishant Vishwamitra and Hongxin Hu},
+  journal={ArXiv},
+  year={2024},
+  volume={abs/2403.18957},
+  url={https://api.semanticscholar.org/CorpusID:268732614}
+}
 ```
