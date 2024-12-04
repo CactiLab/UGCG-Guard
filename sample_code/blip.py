@@ -1,4 +1,4 @@
-from transformers import InstructBlipProcessor, InstructBlipForConditionalGeneration
+exifrom transformers import InstructBlipProcessor, InstructBlipForConditionalGeneration
 import torch
 from PIL import Image
 import requests
